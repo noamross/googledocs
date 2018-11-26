@@ -1,0 +1,26 @@
+Package: googledocs
+Title: An Interface to the Google Docs API
+Version: 0.0.1
+Authors@R: 
+    person(given = "Noam",
+           family = "Ross",
+           role = c("aut", "cre"),
+           email = "noam.ross@gmail.com")
+Author: Noam Ross
+Maintainer: Noam Ross <noam.ross@gmail.com>
+Description: Read, create, and modify Google Docs programatically
+License: MIT + file LICENSE
+Suggests: 
+    testthat,
+    rmarkdown
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.1.1
+Imports: 
+    gargle,
+    jsonlite,
+    httr,
+    googledrive
+Remotes:
+    r-lib/gargle
